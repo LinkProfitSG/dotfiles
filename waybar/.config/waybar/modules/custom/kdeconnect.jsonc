@@ -1,0 +1,9 @@
+{
+  "custom/kdeconnect": {
+    "exec": "$HOME/.config/waybar/scripts/kdeconnect.sh",
+    "return-type": "json",
+    "interval": 30,
+    "format": "{}",
+    "on-click": "kdeconnect-app"
+  }
+}

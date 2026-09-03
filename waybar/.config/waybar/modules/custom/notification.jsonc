@@ -1,0 +1,17 @@
+{
+	"custom/notification": {
+		"tooltip": false,
+		"format": "{icon}",
+		"format-icons": {
+			"notification": "󱅫",
+			"none": "",
+			"dnd-notification": "󱅫",
+			"dnd-none": ""
+		},
+		"return-type": "json",
+		"exec": "swaync-client -swb",
+		"on-click": "swaync-client -t -sw",
+		"on-click-middle": "swaync-client -d -sw",
+		"escape": true
+	}
+}

@@ -1,0 +1,8 @@
+hl.config({
+  input = {
+    touchpad = {
+      natural_scroll = true,
+      tap_to_click = true
+    }
+  }
+})

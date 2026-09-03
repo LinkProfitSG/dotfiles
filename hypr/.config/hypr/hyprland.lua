@@ -1,0 +1,6 @@
+require("modules/autostart")
+require("modules/binds")
+require("modules/decoration")
+require("modules/env")
+require("modules/input")
+require("modules/output")

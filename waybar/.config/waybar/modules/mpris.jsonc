@@ -1,0 +1,6 @@
+{
+  "mpris": {
+    "format": "{title}",
+    "max-length": 25
+  }
+}

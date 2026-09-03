@@ -1,0 +1,15 @@
+[config]
+
+[config.wallpaper]
+command = 'awww img "{{ image }}"'
+set = true
+
+[templates.waybar]
+input_path = "templates/waybar.css"
+output_path = "~/.cache/matugen/waybar.css"
+post_hook = "pkill -SIGUSR2 waybar"
+
+[templates.hyprland]
+input_path = "templates/hyprland.lua"
+output_path = "~/.cache/matugen/hyprland.lua"
+post_hook = "hyprctl reload"

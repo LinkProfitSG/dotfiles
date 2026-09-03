@@ -1,0 +1,13 @@
+{
+  "bluetooth": {
+    "format": "",
+    "format-disabled": "󰂲",
+    "format-connected": "",
+    "tooltip-format": "{device_alias}",
+    "tooltip-format-connected": " {device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}",
+    "on-click-middle": "rfkill toggle bluetooth",
+    "on-click": "$HOME/.config/waybar/scripts/bluetooth.sh"
+  }
+}
+

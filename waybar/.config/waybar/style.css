@@ -1,0 +1,118 @@
+@import "/home/ardchst/.cache/matugen/waybar.css";
+@import "palette.css";
+
+* {
+  border: none; border-radius: 0;
+  font-family: "JetBrains Mono Nerd Font", "Noto Serif CJK JP";
+  font-size: 14px;
+  font-weight: bold;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+}
+
+#workspaces button,
+#mpris,
+#custom-notification,
+#custom-kdeconnect,
+#bluetooth,
+#network,
+#clock,
+#backlight
+{
+  background: @surface;
+  color: @on_surface;
+}
+
+#workspaces button {
+  padding: 0 10px 0 10px;
+  margin-right: 2px;
+  border-radius: 5px;
+  transition:
+    border-radius 250ms ease-out,
+    background 250ms ease-out,
+    color 150ms ease-out;
+}
+#workspaces button:first-child { border-radius: 20px 5px 5px 20px; }
+#workspaces button:last-child { border-radius: 5px 20px 20px 5px; }
+#workspaces button.active {
+  background: @primary;
+  color: @on_primary;
+  border-radius: 20px;
+}
+
+#mpris {
+  border-radius: 20px;
+  padding-left: 5px; padding-right: 5px;
+  transition:
+    opacity 250ms ease-out;
+}
+#mpris.paused {
+  opacity: 0.8;
+}
+
+#custom-notification,
+#custom-kdeconnect,
+#bluetooth,
+#network,
+#clock,
+#backlight
+{
+  margin-left: 3px; margin-right: 3px;
+}
+
+#custom-notification {
+  padding-left: 10px; padding-right: 13px;
+  margin-right: 2px;
+  border-radius: 20px 5px 5px 20px;
+  transition:
+    color 250ms ease-out;
+}
+#custom-notification.notification {
+  color: @primary;
+}
+#custom-notification.dnd-none,
+#custom-notification.dnd-notification
+{
+  color: @error;
+}
+
+#custom-kdeconnect {
+  padding-left: 13px; padding-right: 13px;
+  margin-left: 2px;
+  border-radius: 5px 20px 20px 5px;
+  transition:
+    color 250ms ease-out,
+    opacity 250ms ease-out;
+}
+#custom-kdeconnect.disconnected {
+  color: @on_surface_variant;
+  opacity: 0.8;
+}
+#custom-kdeconnect.critical { color: @error; }
+#custom-kdeconnect.low { color: @warning; }
+#custom-kdeconnect.charging { color: @success; }
+
+#bluetooth {
+  padding-left: 10px; padding-right: 8px;
+  border-radius: 20px 5px 5px 20px;
+  margin-right: 2px;
+}
+
+#network {
+  padding-left: 5px; padding-right: 7px;
+  border-radius: 5px 20px 20px 5px;
+  margin-left: 2px;
+}
+
+#clock {
+  padding-left: 10px; padding-right: 10px;
+  border-radius: 20px;
+}
+
+#backlight {
+  padding-left: 7px; padding-right: 11px;
+  border-radius: 20px;
+}
