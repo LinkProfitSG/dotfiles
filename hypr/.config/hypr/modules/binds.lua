@@ -2,9 +2,10 @@ local mod = "SUPER "
 
 -- Opening apps
 hl.bind(mod .. "+ Q", hl.dsp.exec_cmd("alacritty"))
-hl.bind(mod .. "+ O", hl.dsp.exec_cmd("brave-origin"))
+hl.bind(mod .. "+ O", hl.dsp.exec_cmd("brave-browser-stable"))
 
 -- Actions
+hl.bind("CONTROL + ALT + Q", hl.dsp.exit())
 hl.bind("CONTROL + SHIFT + Q", hl.dsp.window.close())
 hl.bind(mod .. "+ SHIFT + W", hl.dsp.exec_cmd("wallpaper-changer"))
 hl.bind(mod .. "+ SHIFT + S", hl.dsp.exec_cmd("grim -g \"$(slurp)\" - | wl-copy"))
