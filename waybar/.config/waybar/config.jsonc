@@ -14,6 +14,7 @@
     "$HOME/.config/waybar/modules/clock.jsonc",
     "$HOME/.config/waybar/modules/mpris.jsonc",
     "$HOME/.config/waybar/modules/network.jsonc",
+    "$HOME/.config/waybar/modules/wireplumber.jsonc",
     "$HOME/.config/waybar/modules/custom/kdeconnect.jsonc",
     "$HOME/.config/waybar/modules/custom/notification.jsonc"
   ],
@@ -28,8 +29,8 @@
     "custom/notification",
     "custom/kdeconnect",
     "bluetooth",
-    "pulseaudio#microphone",
-    "pulseaudio",
+    "wireplumber#source",
+    "wireplumber#sink",
     "network",
     "clock",
     "backlight"
