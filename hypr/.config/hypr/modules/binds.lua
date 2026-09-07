@@ -1,7 +1,7 @@
 local mod = "SUPER "
 
 -- Opening apps
-hl.bind(mod .. "+ Q", hl.dsp.exec_cmd("alacritty"))
+hl.bind(mod .. "+ Q", hl.dsp.exec_cmd("kitty"))
 hl.bind(mod .. "+ O", hl.dsp.exec_cmd("brave-browser-stable"))
 
 -- Actions
