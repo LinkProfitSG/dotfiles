@@ -1,8 +1,0 @@
-custom-shader = shaders/cursor_sweep.glsl
-custom-shader-animation = always
-
-font-family = "JetBrainsMono Nerd Font"
-
-cursor-style = block
-cursor-style-blink = false
-shell-integration-features = no-cursor
