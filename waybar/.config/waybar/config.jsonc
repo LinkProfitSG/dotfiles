@@ -9,8 +9,13 @@
   "margin": "5",
 
   "include": [
-    "$HOME/.config/waybar/modules/*.jsonc",
-    "$HOME/.config/waybar/modules/custom/*.jsonc"
+    "$HOME/.config/waybar/modules/backlight.jsonc",
+    "$HOME/.config/waybar/modules/bluetooth.jsonc",
+    "$HOME/.config/waybar/modules/clock.jsonc",
+    "$HOME/.config/waybar/modules/mpris.jsonc",
+    "$HOME/.config/waybar/modules/network.jsonc",
+    "$HOME/.config/waybar/modules/custom/kdeconnect.jsonc",
+    "$HOME/.config/waybar/modules/custom/notification.jsonc"
   ],
 
   "modules-left": [ "hyprland/workspaces" ],
@@ -23,6 +28,8 @@
     "custom/notification",
     "custom/kdeconnect",
     "bluetooth",
+    "pulseaudio#microphone",
+    "pulseaudio",
     "network",
     "clock",
     "backlight"
