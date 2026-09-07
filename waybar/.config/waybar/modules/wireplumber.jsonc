@@ -4,7 +4,7 @@
 		"tooltip": true,
 		"tooltip-format": "{desc}: {volume}%",
 		"format-muted": "",
-		"on-click": "pavucontrol",
+		"on-click": "pwvucontrol",
 		"on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5x+",
 		"on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5x-",
 		"scroll-step": 5,
