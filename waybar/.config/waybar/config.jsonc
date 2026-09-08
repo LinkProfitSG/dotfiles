@@ -28,8 +28,6 @@
   "modules-right": [
     "custom/notification",
     "custom/kdeconnect",
-    "bluetooth",
-    "wireplumber#source",
     "wireplumber#sink",
     "network",
     "clock",

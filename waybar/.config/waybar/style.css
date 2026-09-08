@@ -111,8 +111,8 @@ window#waybar {
 
 #wireplumber.sink {
   padding-left: 10px; padding-right: 12px;
-  border-radius: 5px 20px 20px 5px;
-  margin-left: 0;
+  border-radius: 20px 5px 5px 20px;
+  margin-right: 0;
   transition:
     color 250ms ease-out;
 }

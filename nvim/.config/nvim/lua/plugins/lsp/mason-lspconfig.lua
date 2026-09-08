@@ -12,6 +12,7 @@ return {
       "rust_analyzer",
       "slint_lsp",
       "biome",
+      "qmlls"
     },
   },
 }

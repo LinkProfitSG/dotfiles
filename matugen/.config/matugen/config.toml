@@ -13,3 +13,12 @@ post_hook = "pkill -SIGUSR2 waybar"
 input_path = "templates/hyprland.lua"
 output_path = "~/.cache/matugen/hyprland.lua"
 post_hook = "hyprctl reload"
+
+[templates.rofi]
+input_path = "templates/rofi.rasi"
+output_path = "~/.cache/matugen/colors.rasi"
+post_hook = "sed -i 's/_/-/g' ~/.cache/matugen/colors.rasi"
+
+[templates.quickshell]
+input_path = "templates/quickshell.qml"
+output_path = "~/.config/quickshell/Templates/Palette.qml"

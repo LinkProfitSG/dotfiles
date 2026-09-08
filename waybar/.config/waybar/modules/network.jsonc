@@ -5,7 +5,7 @@
 		"tooltip-format": "{essid} ({gwaddr}): {signalStrength}",
 		"format-disconnected": "󱚼",
 		"format-disabled": "󰖪",
-		"on-click": "$HOME/.config/waybar/scripts/wifi.sh",
+		"on-click": "$HOME/.config/waybar/scripts/wifi-menu.sh",
 		"interval": 1,
 		"max-length": 30,
 		"on-click-middle": "sh -c 'nmcli networking $([ \"$(nmcli networking)\" = enabled ] && echo off || echo on)'"
