@@ -2,7 +2,7 @@ local mod = "SUPER "
 
 -- Opening apps
 hl.bind(mod .. "+ Q", hl.dsp.exec_cmd("kitty"))
-hl.bind(mod .. "+ O", hl.dsp.exec_cmd("brave-browser-stable"))
+hl.bind(mod .. "+ O", hl.dsp.exec_cmd("helium"))
 
 -- Actions
 hl.bind("CONTROL + ALT + Q", hl.dsp.exit())
