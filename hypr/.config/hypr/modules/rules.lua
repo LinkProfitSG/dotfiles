@@ -4,3 +4,15 @@ hl.window_rule({ match = { float = false, workspace = "w[tv1]" }, border_size = 
 hl.window_rule({ match = { float = false, workspace = "w[tv1]" }, rounding = 0 })
 hl.window_rule({ match = { float = false, workspace = "f[1]" }, border_size = 0 })
 hl.window_rule({ match = { float = false, workspace = "f[1]" }, rounding = 0 })
+
+hl.layer_rule({
+  match = { namespace = "swaync-control-center" },
+  blur = true,
+  ignore_alpha = 0,
+  animation = "slide right"
+})
+
+hl.layer_rule({
+  match = { namespace = "swaync-notification-window" },
+  ignore_alpha = 0
+})

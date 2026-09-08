@@ -18,11 +18,11 @@ configuration {
 window {
   location: northeast;
   anchor: northeast;
-  width: 30%; height: 45%;
+  width: 16%; height: 30%;
   enabled: true;
-  margin: 0px; padding: 0px;
+  margin: 0px 20px 0px 0px; padding: 0px;
   border: 1px solid;
-  border-radius: 0px;
+  border-radius: 16px;
   border-color: @outline-variant;
   cursor: "default";
 }
