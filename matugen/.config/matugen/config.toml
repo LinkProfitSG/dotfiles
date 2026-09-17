@@ -18,3 +18,8 @@ post_hook = "hyprctl reload"
 input_path = "templates/rofi.rasi"
 output_path = "~/.cache/matugen/colors.rasi"
 post_hook = "sed -i 's/_/-/g' ~/.cache/matugen/colors.rasi"
+
+[templates.slint]
+input_path = "templates/slint.slint"
+output_path = "~/Workspace/android/material-catalog/ui/templates/palette.slint"
+post_hook = "sed -i 's/_/-/g' ~/Workspace/android/material-catalog/ui/templates/palette.slint"

@@ -1,0 +1,5 @@
+export global Palette {
+  <* for name, value in colors *>
+  out property <color> {{name}}: {{value.default.hex}};
+  <* endfor *>
+}
