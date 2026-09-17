@@ -48,5 +48,5 @@ Dev B (not working on anything):
 ```
 -> git pull <main branch> (pulls changes that were previously merged from feature/npc-pathfinding branch)
 ```
-> *For any person that is currently working on another branch, the changes that were pushed to the main branch can be ignored until their own work is completed.*
-> *For a 2 person working in the same branch, the workflow is similar to the "Team with only 2 people" section.*
+*For any person that is currently working on another branch, the changes that were pushed to the main branch can be ignored until their own work is completed.*
+*For a 2 person working in the same branch, the workflow is similar to the "Team with only 2 people" section.*
